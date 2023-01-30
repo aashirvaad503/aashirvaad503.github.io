@@ -2145,3 +2145,12 @@ footer .credits {
     font-size: 1.3rem;
   }
 }
+
+
+.object-fit_cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-item > img{
+height:600px;
+}
