@@ -152,7 +152,20 @@ a:hover {
     z-index: 1;
 }
 
-
+.blog-card-preeti {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.6%;
+  background: #d5e5a3;
+  line-height: 1.4;
+  font-family: sans-serif;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 0;
+  
+}
 
 .blog-card {
   display: flex;
@@ -166,6 +179,7 @@ a:hover {
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+  
 }
 .blog-card a {
   color: inherit;
@@ -174,12 +188,23 @@ a:hover {
   color: #5ad67d;
 }
 
-
 .blog-card .description {
   padding: 1rem;
-  background: #f3f3f3;
+  background:#f3f3f3
   position: relative;
   z-index: 1;
+}
+
+.blog-card .description-preeti {
+  padding: 1rem;
+  /*background:#f3f3f3*/
+  background: #d5e5a3;
+  position: relative;
+  z-index: 1;
+}
+.blog-card-preeti .description-preeti h1,
+.blog-card-preeti .description-preeti h2 {
+  font-family: Poppins, sans-serif;
 }
 .blog-card .description h1,
 .blog-card .description h2 {
@@ -189,6 +214,18 @@ a:hover {
   line-height: 1;
   margin: 0;
   font-size: 1.7rem;
+}
+.blog-card-preeti .description-preeti h1 {
+  line-height: 1;
+  margin: 0;
+  font-size: 1.7rem;
+}
+.blog-card-preeti .description-preeti h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #a2a2a2;
+  margin-top: 5px;
 }
 .blog-card .description h2 {
   font-size: 1rem;
@@ -201,10 +238,24 @@ a:hover {
   position: relative;
   margin: 1rem 0 0;
 }
+.blog-card-preeti p {
+  position: relative;
+  margin: 1rem 0 0;
+}
 .blog-card p:first-of-type {
   margin-top: 1.25rem;
 }
 .blog-card p:first-of-type:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background: #5ad67d;
+  width: 35px;
+  top: -0.75rem;
+  border-radius: 3px;
+}
+
+.blog-card-preeti p:first-of-type:before {
   content: "";
   position: absolute;
   height: 5px;
@@ -226,7 +277,7 @@ a:hover {
     height: auto;
   }
   .blog-card .description {
-    flex-basis: 60%;
+    flex-basis: 100%;
   }
   .blog-card .description:before {
     transform: skewX(-3deg);
@@ -239,6 +290,8 @@ a:hover {
     bottom: 0;
     z-index: -1;
   }
+
+
   .blog-card.alt {
     flex-direction: row-reverse;
   }
