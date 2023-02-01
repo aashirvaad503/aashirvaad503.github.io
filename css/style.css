@@ -173,7 +173,8 @@ a:hover {
   margin: 1rem auto;
   box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.6%;
-  background: #f3f3f3;
+  /*background: #f3f3f3;*/
+  background: #d5e5a3;
   line-height: 1.4;
   font-family: sans-serif;
   border-radius: 5px;
@@ -190,7 +191,8 @@ a:hover {
 
 .blog-card .description {
   padding: 1rem;
-  background:#f3f3f3
+  /*background: #f3f3f3;*/
+  background: #d5e5a3;
   position: relative;
   z-index: 1;
 }
