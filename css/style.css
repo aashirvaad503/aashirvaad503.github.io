@@ -134,7 +134,7 @@ a:hover {
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 
   
@@ -1593,7 +1593,7 @@ a:hover {
   padding: 1rem 2rem;
   position: absolute;
   left: 15px;
-  bottom: 10px;
+  bottom: 80px;
 }
 
 .sinse-box .sinse-title {
@@ -1616,6 +1616,38 @@ a:hover {
 }
 
 .sinse-box p {
+  margin-bottom: 0;
+  font-size: .7rem;
+}
+
+.sinse-about-box {
+  background-color: #2eca6a;
+  padding: 1rem 2rem;
+  position: centre;
+  left: 315px;
+  bottom: 310px;
+}
+
+.sinse-about-box .sinse-about-title {
+  font-weight: 700;
+  letter-spacing: 0.043em;
+  font-size: 1rem;
+}
+
+.sinse-about-box .sinse-about-title span {
+  position: absolute;
+}
+
+.sinse-about-box .sinse-about-title span:after {
+  content: ' ';
+  width: 35px;
+  height: 2px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -15px;
+}
+
+.sinse-about-box p {
   margin-bottom: 0;
   font-size: .7rem;
 }
