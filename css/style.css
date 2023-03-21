@@ -627,7 +627,7 @@ a:hover {
 
 .owl-arrow .owl-nav {
   position: absolute;
-  top: 2;
+  top: 0;
   right: 0;
   font-size: 1.8rem;
 }
@@ -660,7 +660,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav {
   position: absolute;
-  top: 2;
+  top: 0;
   right: 0;
   font-size: 1.2rem;
 }
